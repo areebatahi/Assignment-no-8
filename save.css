@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Areeba;
+    src: url(Font\ family/GreatVibes-Regular.ttf);
+}
+legend{
+    text-align: center;
+    font-family: 'Areeba';
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+}
+form{
+    color: white;
+}
+.name{
+    text-align: left;
+width: fit-content;
+width: 600px;
+height: 300px;
+margin-top: 125px;
+margin-left: 330px;
+}
+a{
+    background-color: rgb(255, 247, 0);
+    color: rgb(182, 14, 14);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.submit{
+    color: rgb(182, 14, 14);
+    background-color: rgb(255, 247, 0);
+    border-color: white;
+    border-radius: 5px;
+}
+.submit:hover{
+    color: rgb(182, 14, 14);
+    background-color: rgb(255, 247, 0);
+    text-decoration: dashed solid white;
+    text-transform: uppercase;
+    transform: scale(1.5);
+    transition: 3s;
+}
+a:hover{
+    color: rgb(182, 14, 14);
+    background-color: rgb(255, 247, 0);
+    text-decoration: dashed solid white;
+    text-transform: uppercase;
+    transform: scale(1.5);
+    transition: 3s;
+}
+body{
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
